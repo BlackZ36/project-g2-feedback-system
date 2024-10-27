@@ -1,0 +1,141 @@
+{
+    "accounts": [
+      {
+        "id": "1",
+        "email": "admin@fpt.edu.vn",
+        "password": "matkhau123",
+        "name": "AnNV",
+        "fullName": "Nguyễn Văn An",
+        "role": "admin",
+        "status": 1
+      },
+      {
+        "id": "2",
+        "email": "teacher1@fpt.edu.vn",
+        "password": "matkhau123",
+        "name": "BinhNV",
+        "fullName": "Nguyễn Văn Bình",
+        "role": "teacher",
+        "status": 1
+      },
+      {
+        "id": "3",
+        "email": "teacher2@fpt.edu.vn",
+        "password": "matkhau123",
+        "name": "AnhTV",
+        "fullName": "Trần Văn Anh",
+        "role": "teacher",
+        "status": 1
+      },
+      {
+        "id": "4",
+        "email": "teacher3@fpt.edu.vn",
+        "password": "matkhau123",
+        "name": "TrongTD",
+        "fullName": "Trần Đình Trọng",
+        "role": "teacher",
+        "status": 1
+      },
+      {
+        "id": "5",
+        "email": "teacher4@fpt.edu.vn",
+        "password": "matkhau123",
+        "name": "HoangTH",
+        "fullName": "Hoàng Thu Hà",
+        "role": "teacher",
+        "status": 1
+      },
+      {
+        "id": "6",
+        "email": "student1@fpt.edu.vn",
+        "password": "matkhau123",
+        "name": "HaNT",
+        "fullName": "Nguyễn Thu Hà",
+        "role": "student",
+        "status": 1
+      },
+      {
+        "id": "7",
+        "email": "student2@fpt.edu.vn",
+        "password": "matkhau123",
+        "name": "DatNT",
+        "fullName": "Nguyễn Thành Đạt",
+        "role": "student",
+        "status": 1
+      },
+      {
+        "id": "8",
+        "email": "student3@fpt.edu.vn",
+        "password": "student123",
+        "name": "KhoiLM",
+        "fullName": "Lưu Minh Khôi",
+        "role": "student",
+        "status": 1
+      }
+    ],
+    "classes": [
+      {
+        "id": "1",
+        "name": "FER202",
+        "teacherId": 2,
+        "students": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": "2",
+        "name": "PRN231",
+        "teacherId": 3,
+        "students": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "id": "3",
+        "name": "SWD392",
+        "teacherId": 4,
+        "students": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "id": "4",
+        "name": "SWP391",
+        "teacherId": 5,
+        "students": [
+          6,
+          5
+        ]
+      }
+    ],
+    "feedbacks": [
+      {
+        "id": "1",
+        "teacherId": 2,
+        "studentId": 7,
+        "openDate": "2024-10-01T12:00:00Z",
+        "closeDate": null,
+        "modified": null
+      }
+    ],
+    "feedbackDetails": [
+      {
+        "id": "1",
+        "feedbackId": 1,
+        "punctuality": 1,
+        "teachingSkill": 2,
+        "lectureVolume": 3,
+        "supportInOutClass": 4,
+        "meetingStudentNeeds": 5,
+        "selfProgressAssessment": 6,
+        "comment": "Great teaching!"
+      }
+    ]
+  }
