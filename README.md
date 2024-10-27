@@ -26,4 +26,4 @@ Dự án React sử dụng Vite, ShadCN UI cho các thành phần giao diện, T
 Dùng lệnh sau để khởi chạy cả Vite server và JSON Server đồng thời:
 
 ```bash
-npm run start
+npm run dev
