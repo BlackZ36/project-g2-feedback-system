@@ -11,8 +11,8 @@ Dự án React sử dụng Vite, ShadCN UI cho các thành phần giao diện, T
 
 1. **Clone** dự án và di chuyển vào thư mục:
     ```bash
-    git clone [<repository-url>](https://github.com/BlackZ36/project-g2-feedback-system.git)
-    cd [<project-directory>](https://github.com/BlackZ36/project-g2-feedback-system.git)
+    git clone https://github.com/BlackZ36/project-g2-feedback-system.git
+    cd https://github.com/BlackZ36/project-g2-feedback-system.git
     ```
 
 2. **Cài đặt các gói phụ thuộc**:
